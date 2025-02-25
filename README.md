@@ -1,5 +1,5 @@
 
-# Data Warehouse and Analytics Project
+# Data Warehouse, Exploratory Data Analytics and Advance Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
@@ -89,12 +89,15 @@ data-warehouse-project/
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   └── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/                            # SQL scripts for ETL, transformations and analytics
+│   ├── adv_analytics/                  # Scripts for advanced analytics
+│   ├── data_layers/                    # Scripts for ETL process 
+│       ├── bronze/                     # Scripts for extracting and loading raw data
+│       ├── silver/                     # Scripts for cleaning and transforming data
+│       ├── gold/                       # Scripts for creating analytical models 
+│   └── eda/                            # Scripts for exploratory data analytics
 │
 ├── tests/                              # Test scripts and quality files
 │
